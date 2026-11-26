@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="مطعم زين: أطباق أصيلة من مكوّنات طازجة يعدّها نخبة من الطهاة. احجز طاولتك الآن.">
+    <title>مطعم زين</title>
+
+    <!-- start link css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- end link css -->
+
+    <!-- start icons (Bootstrap Icons + Font Awesome) -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <!-- end icons -->
+</head>
+<body>
+
+<!-- start navbar -->
+<nav class="navbar" id="top">
+    <div class="logo">زين</div>
+    <ul class="nav-links" id="navLinks">
+        <li><a href="#top">الرئيسية</a></li>
+        <li><a href="#about">حول</a></li>
+        <li><a href="#menu">قائمة</a></li>
+        <li><a href="#events">الأحداث</a></li>
+        <li><a href="#chefs">الطهاة</a></li>
+        <li class="dropdown">
+            <a href="#menu">قائمة منسدلة</a>
+            <ul class="dropdown-menu">
+                <li><a href="#menu">أطباقنا</a></li>
+                <li><a href="#menu">أشهر الأطباق</a></li>
+                <li><a href="#menu">قائمتنا</a></li>
+            </ul>
+        </li>
+        <li><a href="#gallery">المعرض</a></li>
+        <li><a href="#contact">اتصل بنا</a></li>
+    </ul>
+
+    <div class="nav-actions">
+        <div class="nav-btn">
+            <button type="button" data-scroll="#booking">احجز طاولة</button>
+        </div>
+        <button class="nav-toggle" id="menuBtn" type="button" aria-label="القائمة" aria-expanded="false" aria-controls="navLinks">☰</button>
+    </div>
+</nav>
+<!-- end navbar -->
+
+<main>
+
+<!-- start hero -->
+<section class="hero">
+    <div>
+        <div class="hero-img"></div>
+    </div>
+    <div class="tax">
+        <h1>استمتع<br> بطعامك الصحي واللذيذ</h1>
+        <p>ضم مطعمنا نخبة من أمهر الطهاة الموهوبين، الذين يبدعون <br>في تقديم أطباق تجمع بين الأصالة والتميّز.</p>
+        <div class="bt-link">
+            <button type="button" data-scroll="#booking">احجز طاولة</button>
+                <a href="https://youtu.be/xPPLbEFbCAo?si=SNh8u5Ocq7zn441d" target="_blank" rel="noopener" class="video-btn">            
+                  <i class="fa-regular fa-circle-play" aria-hidden="true"></i>
+                    <span>شاهد الفيديو</span>
+        </div>
+    </div>
+</section>
+<!-- end hero -->
+
+<!-- start about -->
+<section class="about" id="about">
+    <p>نبذة عنا</p>
+    <h3>اعرف المزيد عنا</h3>
+    <div class="about-cont">
+
+        <div class="about-text">
+            <p>في مطعم <strong>زين</strong> نؤمن أن الطعام الجيد ليس مجرد وجبة، بل تجربة تجمع بين الأصالة والذوق الرفيع. منذ انطلاقتنا ونحن نحرص على تقديم أطباق محضّرة بعناية من مكوّنات طازجة، يبدعها نخبة من أمهر الطهاة الذين يضعون شغفهم في كل طبق.</p>
+            <ul>
+                <li>مكوّنات طازجة يتم اختيارها يومياً بعناية.</li>
+                <li>طهاة محترفون يجمعون بين الخبرة والإبداع.</li>
+                <li>أجواء مريحة وخدمة تليق بضيوفنا.</li>
+            </ul>
+            <p>نسعى دائماً لأن تكون زيارتك لنا لحظة لا تُنسى، ونتطلع لاستقبالك على مائدتنا.</p>
+
+            <iframe src="https://www.youtube.com/embed/xPPLbEFbCAo" title="فيديو زين" loading="lazy" allowfullscreen></iframe>
+        </div>
+
+        <div class="about-img">
+            <img src="emig/d1.jpg" alt="أجواء مطعم زين" loading="lazy">
+            <div class="about-book">
+                <h3>احجز طاولة</h3>
+                <a href="tel:+201157721879"><span dir="ltr">01157721879</span></a>
+            </div>
+        </div>
+
+    </div>
+</section>
+<!-- end about -->
+
+<!-- start why -->
+<section class="why">
+    <div class="why-cont">
+        <div class="why-main">
+            <h2>لماذا تختار زين؟</h2>
+            <p>في مطعم زين نقدّم لك تجربة طعام متكاملة، تبدأ من اختيار أجود المكوّنات وتنتهي بطبق يليق بذوقك. نهتم بأدق التفاصيل لتشعر دائماً أنك ضيف عزيز على مائدتنا.</p>
+            <button type="button" data-scroll="#about">اعرف المزيد</button>
+        </div>
+
+        <div class="why-card">
+            <div class="why-icon"><i class="fa-solid fa-utensils" aria-hidden="true"></i></div>
+            <h4>طهاة محترفون</h4>
+            <p>فريق من الطهاة أصحاب الخبرة يجمعون بين الوصفات التقليدية والإبداع العصري في التقديم.</p>
+        </div>
+
+        <div class="why-card">
+            <div class="why-icon"><i class="fa-solid fa-clipboard-list" aria-hidden="true"></i></div>
+            <h4>خدمة وأجواء مميزة</h4>
+            <p>مكان مريح وخدمة راقية وحجز سهل، لتكون زيارتك لنا تجربة تستحق التكرار.</p>
+        </div>
+
+        <div class="why-card">
+            <div class="why-icon"><i class="fa-solid fa-leaf" aria-hidden="true"></i></div>
+            <h4>مكوّنات طازجة</h4>
+            <p>نختار مكوّناتنا يومياً من أفضل الموردين، لنضمن لك طعماً أصيلاً وجودة ثابتة في كل طبق.</p>
+        </div>
+    </div>
+</section>
+<!-- end why -->
+
+<!-- start banner -->
+<section class="banner">
+    <div>
+        <h2>232</h2>
+        <p>العملاء</p>
+    </div>
+    <div>
+        <h2>521</h2>
+        <p>الأطباق</p>
+    </div>
+    <div>
+        <h2>1456</h2>
+        <p>ساعات الدعم</p>
+    </div>
+    <div>
+        <h2>80</h2>
+        <p>العمال</p>
+    </div>
+</section>
+<!-- end banner -->
+
+<!-- start menu-section (qayimah) -->
+<section class="menu-section" id="menu">
+    <p>قائمتنا</p>
+    <h2>اطلع على <span>قائمتنا الشهية</span></h2>
+
+    <div class="menu-tabs">
+        <a href="#menu" class="active">عشاء</a>
+        <a href="#menu">غداء</a>
+        <a href="#menu">فطور</a>
+    </div>
+
+    <div class="qayimah">
+
+        <div class="menu-card">
+            <img src="emig/a1.jpg" alt="طبق فراخ مندي مع الأرز والمكسرات والزبيب" loading="lazy">
+            <div class="menu-card-txt">
+                <h5>فراخ مندي</h5>
+                <p>فراخ مندي مع الأرز والمكسرات والزبيب</p>
+                <span>$180</span>
+            </div>
+        </div>
+
+        <div class="menu-card">
+            <img src="emig/a2.webp" alt="طبق حمص مع زيت الزيتون والعيش البلدي" loading="lazy">
+            <div class="menu-card-txt">
+                <h5>حمص</h5>
+                <p>وجبة سورية عبارة عن حمص مع زيت الزيتون والعيش البلدي الفلاحي</p>
+                <span>$250</span>
+            </div>
+        </div>
+
+        <div class="menu-card">
+            <img src="emig/a3.webp" alt="طبق محشي ورق عنب" loading="lazy">
+            <div class="menu-card-txt">
+                <h5>محشي ورق عنب</h5>
+                <p>وجبة مصرية من قلب المطبخ المصري</p>
+                <span>$280</span>
+            </div>
+        </div>
+
+        <div class="menu-card">
+            <img src="emig/a4.webp" alt="طبق محشي مشكل من الفلفل والكوسة والباذنجان" loading="lazy">
+            <div class="menu-card-txt">
+                <h5>محشي مشكل</h5>
+                <p>عبارة عن محشي الفلفل الرومي والكوسة المصرية والباذنجان المصري</p>
+                <span>$240</span>
+            </div>
+        </div>
+
+        <div class="menu-card">
+            <img src="emig/a5.webp" alt="طبق كبسة الدجاج مع الأرز" loading="lazy">
+            <div class="menu-card-txt">
+                <h5>كبسة الدجاج مع الأرز</h5>
+                <p>عبارة عن دجاج مع أرز في قدر واحد</p>
+                <span>$200</span>
+            </div>
+        </div>
+
+        <div class="menu-card">
+            <img src="emig/a7.jpg" alt="قطع لحم مدخن مع الخضار الطازجة" loading="lazy">
+            <div class="menu-card-txt">
+                <h5>قطع اللحم المدخن</h5>
+                <p>عبارة عن لحم مدخن مع الخضار الطازجة المشوية</p>
+                <span>$250</span>
+            </div>
+        </div>
+
+        <div class="menu-card">
+            <img src="emig/a8.jpg" alt="طبق سلطة الفاكهة مع الخضار" loading="lazy">
+            <div class="menu-card-txt">
+                <h5>طبق سلطة الفاكهة مع الخضار</h5>
+                <p>عبارة عن فاكهة وخضار طازجة ترسم لوحة فنية من الإبداع</p>
+                <span>$190</span>
+            </div>
+        </div>
+
+        <div class="menu-card">
+            <img src="emig/a8.png" alt="طبق كفتة مشوية مع الخضار" loading="lazy">
+            <div class="menu-card-txt">
+                <h5>كفتة مشوية</h5>
+                <p>طبق لحم مشوي على الفحم مع الليمون والطماطم المشوية والسلطة</p>
+                <span>$260</span>
+            </div>
+        </div>
+
+        <div class="menu-card">
+            <img src="emig/4f59bef9-25af-494b-813e-aaad8eb37da9.jpg" alt="طبق مشكل مشاوي مع الطحينة والخضار والزيتون" loading="lazy">
+            <div class="menu-card-txt">
+                <h5>طبق مشكل</h5>
+                <p>طبق مشكل مشاوي مع الطحينة والخضار والزيتون الأخضر والأسود</p>
+                <span>$300</span>
+            </div>
+        </div>
+
+    </div>
+</section>
+<!-- end menu-section (qayimah) -->
+
+<!-- start reviews-section (slider) -->
+<section class="reviews-section">
+    <div class="slider" dir="rtl">
+
+        <!-- أزرار الراديو -->
+        <input type="radio" name="slide" id="s1" checked>
+        <input type="radio" name="slide" id="s2">
+        <input type="radio" name="slide" id="s3">
+        <input type="radio" name="slide" id="s4">
+
+        <div class="viewport">
+            <div class="track">
+
+                <article class="slide">
+                    <img src="emig/ملابس.jpg" alt="مصممة ملابس" loading="lazy">
+                    <div class="review-content">
+                        <blockquote>الأكل هنا له طابع خاص مستحيل تلاقيه في أي مكان تاني؛ التوابل موزونة بدقة والطبق بيوصل سخن وطازج كأنه طالع من الفرن في نفس اللحظة.</blockquote>
+                        <div class="review-name">أليس إدور</div>
+                        <div class="review-role">مصممة ملابس</div>
+                        <div class="review-stars" role="img" aria-label="تقييم 5 من 5">★★★★★</div>
+                    </div>
+                </article>
+
+                <article class="slide">
+                    <img src="emig/مصمم.jpg" alt="مصمم جرافيك" loading="lazy">
+                    <div class="review-content">
+                        <blockquote>تجربة متكاملة من أول لحظة بتدخل فيها؛ استقبال راقٍ، إضاءة هادية مريحة للأعصاب، وطاقم عمل فاهم ومهتم بأدق التفاصيل.</blockquote>
+                        <div class="review-name">سيمون زافير</div>
+                        <div class="review-role">مصمم جرافيك</div>
+                        <div class="review-stars" role="img" aria-label="تقييم 5 من 5">★★★★★</div>
+                    </div>
+                </article>
+
+                <article class="slide">
+                    <img src="emig/زائر4.jpg" alt="سائح" loading="lazy">
+                    <div class="review-content">
+                        <blockquote>كل زيارة بنجرب صنف جديد والمستوى ثابت وممتاز، الكميات سخية والأسعار عادلة جداً مقارنة بالجودة العالية للأطباق.</blockquote>
+                        <div class="review-name">رين أدسون</div>
+                        <div class="review-role">سائح</div>
+                        <div class="review-stars" role="img" aria-label="تقييم 5 من 5">★★★★★</div>
+                    </div>
+                </article>
+
+                <article class="slide">
+                    <img src="emig/زائر3.jpg" alt="مصممة ديكور" loading="lazy">
+                    <div class="review-content">
+                        <blockquote>المكان المثالي لجمعة العيلة أو صحابك؛ قعدة مريحة، خدمة سريعة، وأطباق ترضي كل الأذواق من الكبار للصغيرين.</blockquote>
+                        <div class="review-name">الأنورا</div>
+                        <div class="review-role">مصممة ديكور</div>
+                        <div class="review-stars" role="img" aria-label="تقييم 5 من 5">★★★★★</div>
+                    </div>
+                </article>
+
+            </div>
+        </div>
+
+        <!-- النقط -->
+        <div class="dots">
+            <label for="s1" aria-label="الشريحة 1"></label>
+            <label for="s2" aria-label="الشريحة 2"></label>
+            <label for="s3" aria-label="الشريحة 3"></label>
+            <label for="s4" aria-label="الشريحة 4"></label>
+        </div>
+
+    </div>
+</section>
+<!-- end reviews-section (slider) -->
+
+<!-- start events-slider -->
+<section class="events-section" id="events" aria-label="المناسبات والحفلات">
+    <div class="events-track">
+
+        <article class="event-card event-bg event-bg-1">
+            <div class="event-body">
+                <h3>حفلات الزفاف</h3>
+                <p class="event-price">899 دولارًا</p>
+                <p class="event-desc">تنظيم متكامل وقائمة طعام فاخرة تناسب مناسبتك الخاصة بأعلى مستوى من الخدمة.</p>
+            </div>
+        </article>
+
+        <article class="event-card event-bg event-bg-2">
+            <div class="event-body">
+                <h3>حفلات أعياد الميلاد</h3>
+                <p class="event-price">499 دولارًا</p>
+                <p class="event-desc">أجواء احتفالية مميزة وأطباق مختارة بعناية لتجعل يوم ميلادك لا يُنسى.</p>
+            </div>
+        </article>
+
+        <article class="event-card event-bg event-bg-3">
+            <div class="event-body">
+                <h3>الحفلات الخاصة</h3>
+                <p class="event-price">300 دولار</p>
+                <p class="event-desc">مساحات مريحة وخدمة مخصصة للاجتماعات العائلية واللقاءات الودية.</p>
+            </div>
+        </article>
+
+        <article class="event-card event-bg event-bg-4">
+            <div class="event-body">
+                <h3>حفلات مخصصة</h3>
+                <p class="event-price">150 دولارًا</p>
+                <p class="event-desc">باقات مرنة يمكن تصميمها حسب ميزانيتك وعدد المدعوين ونوع المناسبة.</p>
+            </div>
+        </article>
+
+    </div>
+</section>
+<!-- end events-slider -->
+
+<!-- start chefs -->
+<section class="chefs-grid" id="chefs">
+    <div class="chefs-head">
+        <span class="chefs-title">طهاة</span>
+        <h2>طهاتنا <span class="accent">المحترفون</span></h2>
+    </div>
+    <div class="chefs-list">
+
+        <article class="chef-card" tabindex="0">
+            <div class="chef-media">
+                <img src="emig/شيف1.jpg" alt="الطاهي وليام أندرسون" loading="lazy">
+                <div class="chef-icon">
+                    <a href="#" aria-label="X">𝕏</a><a href="#" aria-label="فيسبوك">f</a><a href="#" aria-label="إنستغرام">◎</a><a href="#" aria-label="لينكدإن">in</a>
+                </div>
+            </div>
+            <div class="chef-info">
+                <h3>وليام أندرسون</h3>
+                <span class="chef-role">طاهٍ</span>
+                <p>خبرة واسعة في إعداد الأطباق الرئيسية والمزج بين النكهات الكلاسيكية والعصرية بدقة عالية.</p>
+            </div>
+        </article>
+
+        <article class="chef-card" tabindex="0">
+            <div class="chef-media">
+                <img src="emig/شيف2.jpg" alt="الطاهية جنات أندرسون" loading="lazy">
+                <div class="chef-icon">
+                    <a href="#" aria-label="X">𝕏</a><a href="#" aria-label="فيسبوك">f</a><a href="#" aria-label="إنستغرام">◎</a><a href="#" aria-label="لينكدإن">in</a>
+                </div>
+            </div>
+            <div class="chef-info">
+                <h3>جنات ادوارد</h3>
+                <span class="chef-role">باتيسير</span>
+                <p>متخصصة في الحلويات والمخبوزات الشرقية والغربية بتفاصيل فنية ومذاق متوازن.</p>
+            </div>
+        </article>
+
+        <article class="chef-card" tabindex="0">
+            <div class="chef-media">
+                <img src="emig/شيف3.jpg" alt="الطاهية إليا نيت" loading="lazy">
+                <div class="chef-icon">
+                    <a href="#" aria-label="X">𝕏</a><a href="#" aria-label="فيسبوك">f</a><a href="#" aria-label="إنستغرام">◎</a><a href="#" aria-label="لينكدإن">in</a>
+                </div>
+            </div>
+            <div class="chef-info">
+                <h3>إليا نيت</h3>
+                <span class="chef-role">ماستر شيف</span>
+                <p>تشرف على جودة المكونات وتطوير القوائم الموسمية لضمان تجربة طعام متكاملة.</p>
+            </div>
+        </article>
+
+    </div>
+</section>
+<!-- end chefs -->
+
+<!-- start booking-section -->
+<section class="booking-section" id="booking">
+    <div class="booking-container">
+        <div class="section-header">
+            <span class="sub-title">احجز طاولة</span>
+            <h2>احجز <span class="accent">طاولتك معنا</span></h2>
+        </div>
+
+        <div class="booking-box">
+            <div class="booking-image">
+                <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800&q=80"
+                     alt="إعداد طاولة الطعام" loading="lazy">
+            </div>
+
+            <form class="booking-form" action="#" method="post">
+                <div class="form-grid">
+                    <div class="field">
+                        <label for="b-name">الاسم</label>
+                        <input type="text" id="b-name" name="name" placeholder="اسمك" autocomplete="name" required>
+                    </div>
+
+                    <div class="field">
+                        <label for="b-email">البريد الإلكتروني</label>
+                        <input type="email" id="b-email" name="email" placeholder="example@mail.com" autocomplete="email" required>
+                    </div>
+
+                    <div class="field">
+                        <label for="b-phone">رقم الهاتف</label>
+                        <input type="tel" id="b-phone" name="phone" placeholder="01xxxxxxxxx" autocomplete="tel" dir="ltr" required>
+                    </div>
+
+                    <div class="field">
+                        <label for="b-date">التاريخ</label>
+                        <input type="date" id="b-date" name="date" required>
+                    </div>
+
+                    <div class="field">
+                        <label for="b-time">الوقت</label>
+                        <input type="time" id="b-time" name="time" required>
+                    </div>
+
+                    <div class="field">
+                        <label for="b-people">عدد الأشخاص</label>
+                        <input type="number" id="b-people" name="people" min="1" max="50" placeholder="2" required>
+                    </div>
+                </div>
+
+                <div class="field">
+                    <label for="b-message">رسالة <span class="optional">(اختياري)</span></label>
+                    <textarea id="b-message" name="message" rows="4" placeholder="أي طلبات خاصة؟"></textarea>
+                </div>
+
+                <div class="form-submit">
+                    <button type="submit" class="btn-primary">احجز طاولة</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+<!-- end booking-section -->
+
+<!-- start gallery-section -->
+<section class="gallery-section" id="gallery">
+    <div class="gallery-head">
+        <div class="gallery-header">
+            <span class="sub-title">معرض</span>
+            <h2>تصفح <span class="accent">معرض الصور</span> الخاص بنا</h2>
+        </div>
+    </div>
+
+    <div class="gallery-strip">
+        <div class="gallery-item is-clone" aria-hidden="true"><img src="emig/اضائه.webp" alt="" loading="lazy"></div>
+        <div class="gallery-item is-clone" aria-hidden="true"><img src="emig/بار.jpg" alt="" loading="lazy"></div>
+        <div class="gallery-item" tabindex="0"><img src="emig/modern-restaurant-interior-with-rustic-elements-and-cozy-atmosphere-in-evening-setting-3DPA6FE.jpg" alt="صالة المطعم" loading="lazy"></div>
+        <div class="gallery-item" tabindex="0"><img src="emig/اصدقاء.jpg" alt="جلسات الأصدقاء" loading="lazy"></div>
+        <div class="gallery-item" tabindex="0"><img src="emig/مساء.jpg" alt="تجمع مسائي" loading="lazy"></div>
+        <div class="gallery-item" tabindex="0"><img src="emig/طاوله.webp" alt="طاولات المطعم" loading="lazy"></div>
+        <div class="gallery-item" tabindex="0"><img src="emig/اضائه.webp" alt="إضاءة مسائية" loading="lazy"></div>
+        <div class="gallery-item" tabindex="0"><img src="emig/بار.jpg" alt="تحضير المشروبات" loading="lazy"></div>
+        <div class="gallery-item is-clone" aria-hidden="true"><img src="emig/modern-restaurant-interior-with-rustic-elements-and-cozy-atmosphere-in-evening-setting-3DPA6FE.jpg" alt="" loading="lazy"></div>
+        <div class="gallery-item is-clone" aria-hidden="true"><img src="emig/اصدقاء.jpg" alt="" loading="lazy"></div>
+    </div>
+</section>
+<!-- end gallery-section -->
+
+<!-- start contact-section -->
+<section class="contact-section" id="contact">
+    <div class="contact-container">
+
+        <div class="section-header">
+            <span class="sub-title">اتصل بنا</span>
+            <h2>هل تحتاج إلى مساعدة؟ <span class="accent">تواصل معنا</span></h2>
+        </div>
+
+        <div class="contact-map">
+            <iframe
+                title="موقعنا على الخريطة"
+                src="https://www.google.com/maps?q=Tamiya,+Faiyum,+Egypt&hl=ar&z=13&output=embed"
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                allowfullscreen></iframe>
+        </div>
+
+        <!-- بطاقات المعلومات -->
+        <div class="info-grid">
+            <div class="info-card">
+                <span class="info-icon"><i class="bi bi-geo-alt" aria-hidden="true"></i></span>
+                <div class="info-text">
+                    <h3>العنوان</h3>
+                    <p>مصر، الفيوم، مركز طامية</p>
+                </div>
+            </div>
+
+            <div class="info-card">
+                <span class="info-icon"><i class="bi bi-telephone" aria-hidden="true"></i></span>
+                <div class="info-text">
+                    <h3>اتصل بنا</h3>
+                    <p><a href="tel:+201157721879" dir="ltr">01157721879</a></p>
+                </div>
+            </div>
+
+            <div class="info-card">
+                <span class="info-icon"><i class="bi bi-envelope" aria-hidden="true"></i></span>
+                <div class="info-text">
+                    <h3>راسلنا عبر البريد الإلكتروني</h3>
+                    <p><a href="mailto:info@example.com" dir="ltr">info@example.com</a></p>
+                </div>
+            </div>
+
+            <div class="info-card">
+                <span class="info-icon"><i class="bi bi-clock" aria-hidden="true"></i></span>
+                <div class="info-text">
+                    <h3>ساعات العمل</h3>
+                    <p><strong>من الإثنين إلى السبت:</strong> من 11 صباحاً حتى 11 مساءً؛ <strong>الأحد:</strong> مغلق</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- نموذج الرسالة -->
+        <form class="contact-form" action="#" method="post">
+            <div class="form-row">
+                <div class="field">
+                    <label for="c-name">الاسم</label>
+                    <input type="text" id="c-name" name="name" placeholder="اسمك" autocomplete="name" required>
+                </div>
+                <div class="field">
+                    <label for="c-email">البريد الإلكتروني</label>
+                    <input type="email" id="c-email" name="email" placeholder="بريدك الإلكتروني" autocomplete="email" required>
+                </div>
+            </div>
+
+            <div class="field">
+                <label for="c-subject">الموضوع</label>
+                <input type="text" id="c-subject" name="subject" placeholder="الموضوع" required>
+            </div>
+
+            <div class="field">
+                <label for="c-message">الرسالة</label>
+                <textarea id="c-message" name="message" rows="6" placeholder="اكتب رسالتك هنا" required></textarea>
+            </div>
+
+            <div class="form-send">
+                <button type="submit" class="btn-send">إرسال رسالة</button>
+            </div>
+        </form>
+
+    </div>
+</section>
+<!-- end contact-section -->
+
+</main>
+
+<!-- start footer -->
+<footer class="site-footer" id="footer">
+    <div class="footer-container">
+
+        <div class="footer-grid">
+            <div class="footer-col">
+                <i class="bi bi-geo-alt" aria-hidden="true"></i>
+                <div class="footer-text">
+                    <h4>العنوان</h4>
+                    <p>مصر، الفيوم<br>مركز طامية</p>
+                </div>
+            </div>
+
+            <div class="footer-col">
+                <i class="bi bi-telephone" aria-hidden="true"></i>
+                <div class="footer-text">
+                    <h4>اتصل بنا</h4>
+                    <p><strong>الهاتف:</strong> <a href="tel:+201157721879" dir="ltr">01157721879</a></p>
+                    <p><strong>البريد الإلكتروني:</strong> <a href="mailto:info@example.com" dir="ltr">info@example.com</a></p>
+                </div>
+            </div>
+
+            <div class="footer-col">
+                <i class="bi bi-clock" aria-hidden="true"></i>
+                <div class="footer-text">
+                    <h4>ساعات العمل</h4>
+                    <p><strong>من الإثنين إلى السبت:</strong><br>من 11 صباحاً حتى 11 مساءً</p>
+                    <p><strong>الأحد:</strong> مغلق</p>
+                </div>
+            </div>
+
+            <div class="footer-col">
+                <div class="footer-text">
+                    <h4>تابعنا</h4>
+                    <div class="footer-social">
+                        <a href="#" aria-label="X"><i class="bi bi-twitter-x" aria-hidden="true"></i></a>
+                        <a href="#" aria-label="فيسبوك"><i class="bi bi-facebook" aria-hidden="true"></i></a>
+                        <a href="#" aria-label="إنستغرام"><i class="bi bi-instagram" aria-hidden="true"></i></a>
+                        <a href="#" aria-label="لينكد إن"><i class="bi bi-linkedin" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>© جميع الحقوق محفوظة لمطعم <strong>زين</strong></p>
+        </div>
+
+    </div>
+</footer>
+<!-- end footer -->
+
+<!-- start to-top button -->
+<a href="#top" class="to-top" aria-label="العودة لأعلى الصفحة">↑</a>
+<!-- end to-top button -->
+
+</body>
+</html>
